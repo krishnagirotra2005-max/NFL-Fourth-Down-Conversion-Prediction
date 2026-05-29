@@ -12,14 +12,14 @@ In this project, I trained a classification model to predict whether a fourth-do
 
 The dataset includes historical fourth-down attempts with the following key variables:
 
-| Variable | Description |
-|---|---|
-| `converted` | Whether the fourth-down attempt was successful |
-| `togo` | Yards needed for a first down or touchdown |
-| `yardline` | Distance from the opponent’s end zone |
-| `play_type` | Type of play: run or pass |
-| `posteam` | Team with possession of the ball |
-| `defteam` | Defensive team |
+| Variable    | Description                                                                                                                                                                    | Data Type |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| `converted` | Result of the fourth-down conversion attempt. One of `No` or `Yes`. This is the target variable the model predicts.                                                            | category  |
+| `togo`      | Distance in yards from either the first-down marker or the end zone in goal-down situations. This represents the yards needed to successfully convert the fourth-down attempt. | float64   |
+| `yardline`  | Distance in yards from the opponent’s end zone. This represents how far the offense is from scoring a touchdown.                                                               | float64   |
+| `play_type` | Type of play. One of `Pass` or `Run`. Pass plays include sacks, and run plays include scrambles.                                                                               | category  |
+| `posteam`   | Abbreviation for the team with possession of the ball.                                                                                                                         | object    |
+| `defteam`   | Abbreviation for the team on defense.                                                                                                                                          | object    |
 
 The data was split using a time-based train/test split:
 
