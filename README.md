@@ -74,8 +74,8 @@ The model performed better than random guessing and showed a reasonable ability 
 
 ## Files
 
-- `NFL Fourth-Down Conversion Prediction.ipynb` — Main notebook containing data loading, preprocessing, model training, evaluation, and discussion.
-- `README.md` — Project summary and documentation.
+- `NFL Fourth-Down Conversion Prediction.ipynb` - Main notebook containing data loading, preprocessing, model training, evaluation, and discussion.
+- `README.md` - Project summary and documentation.
 
 ## Conclusion
 
