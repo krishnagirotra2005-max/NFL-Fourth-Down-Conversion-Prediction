@@ -79,8 +79,13 @@ The model performed better than random guessing and showed a reasonable ability 
 * Joblib
 * Jupyter Notebook
 
+## Files
+
+* `NFL Fourth-Down Conversion Prediction.ipynb` - Main notebook containing the data loading, preprocessing, model training, evaluation, and discussion.
+* `README.md` - Project overview and documentation.
+
 ## Conclusion
 
 The HistGradientBoosting model performed reasonably well in predicting fourth-down conversion outcomes using field position, yards-to-go, play type, and team matchup data.
 
-While the model should not be fully relied on for fourth-down decision-making, it can be used as a supporting tool for analyzing fourth-down situations. With additional game-context and player-level data, the model’s predictive performance could be improved further.
+While the model should not be fully relied on for fourth-down decision-making, it can be used as a supporting tool for analyzing fourth-down situations. With additional game-context and player-level data, the model's predictive performance could be improved further.
